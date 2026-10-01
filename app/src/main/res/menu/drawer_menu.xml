@@ -1,0 +1,1 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/nav_home" android:title="Bugün"/><item android:id="@+id/nav_stats" android:title="Grafikler"/><item android:id="@+id/nav_streaks" android:title="Streakler"/><item android:id="@+id/nav_add" android:title="Alışkanlık ekle"/><item android:id="@+id/nav_settings" android:title="Ayarlar"/></menu>

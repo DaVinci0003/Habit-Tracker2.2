@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+ <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content"><TextView android:text="Bugünün planı" android:textStyle="bold" android:textSize="21sp" android:textColor="@color/ink" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/><TextView android:id="@+id/completion" android:textColor="@color/sage_dark" android:layout_width="wrap_content" android:layout_height="wrap_content"/></LinearLayout>
+ <TextView android:text="Uzun basarak sıralamayı değiştirebilirsin" android:textColor="@color/muted" android:layout_marginTop="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+ <androidx.recyclerview.widget.RecyclerView android:id="@+id/habitList" android:layout_marginTop="14dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+ <Button android:id="@+id/addHabit" android:text="＋  Alışkanlık ekle" android:textAllCaps="false" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="52dp"/>
+</LinearLayout>
